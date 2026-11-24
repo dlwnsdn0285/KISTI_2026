@@ -1,0 +1,6 @@
+data/
+src_data/
+cache/
+logs/
+results/
+__pycache__/

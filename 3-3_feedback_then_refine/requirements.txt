@@ -1,0 +1,7 @@
+# Python 3.11, CUDA 12.x. vLLM is only needed on the machine that serves the judge / refiner models.
+numpy==2.2.6
+openai==1.99.9
+torch==2.8.0
+transformers==4.55.2
+sentence-transformers==5.1.0
+vllm==0.10.2

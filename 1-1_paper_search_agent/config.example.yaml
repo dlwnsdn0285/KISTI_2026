@@ -1,0 +1,29 @@
+# Example config. Copy to config.yaml and edit the paths.
+# Do not put API keys here; only the name of the environment variable (search.api_key_env).
+
+store:
+  s2_graph_db: /path/to/s2_graph.duckdb          # --backend s2
+  s2_abstracts_db: /path/to/s2_abstracts.duckdb  # --backend s2
+  datalake_root: /path/to/science_datalake       # --backend datalake
+  sidecar_db: null                               # optional
+  duckdb_memory: 8GB        # per process; more memory / threads speeds up expansion
+  duckdb_threads: 8
+
+search:
+  cache_db: cache/s2_search.sqlite   # S2 search cache
+  throttle_file: cache/.s2_throttle  # rate limit shared across processes
+  shared_throttle: true
+  min_interval_sec: 1.1
+  api_key_env: S2_API_KEY
+
+llm:                        # the vLLM server started by serve_llm.sh
+  url: http://127.0.0.1:8000/v1
+  model: qwen/qwen3-8b
+  parallel: 32
+
+embed:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  device: cpu               # or cuda:0
+  batch_size: 64
+
+prior: priors/expansion_prior.json   # expansion score coefficients

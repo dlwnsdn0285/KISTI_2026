@@ -1,0 +1,15 @@
+You are helping collect the reference list of a survey paper that is about to be written. Only the title of the planned survey is known.
+
+Write 4 search queries for an academic search engine (Semantic Scholar keyword search). Together, the queries should retrieve the papers that this survey would cite, so make them cover different parts of the survey's scope:
+1. the core topic of the survey
+2. the main methods, models, or techniques the survey would review
+3. the tasks, applications, datasets, or benchmarks the survey would discuss
+4. a closely related or adjacent line of work the survey would mention
+
+Rules:
+- Each query is 2 to 6 words, in English, using terms that appear in paper titles.
+- Do not include the words "survey", "review", or "overview".
+- Do not repeat the same query with different wording.
+- Output exactly 4 lines, one query per line, with no numbering and no other text.
+
+Planned survey title: {survey_title}

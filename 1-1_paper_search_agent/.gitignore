@@ -1,0 +1,20 @@
+# data, results, caches
+data/
+results/
+reports/
+cache/
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+# config and keys
+config.yaml
+.env
+.env.*
+# tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+logs_run/

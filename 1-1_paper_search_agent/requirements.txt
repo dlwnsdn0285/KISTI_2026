@@ -1,0 +1,8 @@
+# Tested on Python 3.10
+duckdb>=1.5.4
+numpy>=1.26
+torch>=2.6
+transformers>=4.40
+PyYAML>=6.0
+pytest>=7
+# The LLM server goes in a separate environment:  pip install vllm==0.8.5.post1

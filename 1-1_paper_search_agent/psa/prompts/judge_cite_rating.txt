@@ -1,0 +1,22 @@
+You are helping compile the reference list of a survey paper that is about to be written.
+
+Below is the title of the planned survey, followed by the title and abstract of a candidate paper. Decide whether a survey with this title would cite the candidate paper.
+
+A survey cites a paper when the paper belongs to the survey's scope in any of these ways:
+- a method, model, or system that the survey would review or compare
+- a dataset, benchmark, or evaluation study that the survey would discuss
+- background or foundational work that the survey would introduce
+- a closely related or adjacent line of work that the survey would mention
+
+The candidate does NOT need to cover the whole topic of the survey. It only needs to be a paper that a survey on this topic would reasonably cite.
+
+Answer False when the candidate is from an unrelated field, or shares only a general word with the survey title without sharing its subject.
+
+[Planned survey]
+Title: {survey_title}
+
+[Candidate paper]
+Title: {candidate_title}
+Abstract: {candidate_abstract}
+
+Rate from 0 to 9 how likely this survey is to cite the candidate paper (0 = would not cite, 9 = would certainly cite). Answer with a single digit.

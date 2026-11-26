@@ -7,6 +7,6 @@ This repository contains the code for a joint research conducted by KAIST DM Lab
 
 - `1-1_paper_search_agent/`: 과학기술 문헌 인용 네트워크를 활용한 효율적 검색, 수집 기술 개발.
 - `2-2_3_context_compression/`: 다중 문헌 압축 컨텍스트 활용방안 및 응답시간 효율.
-- `3-1_scientific_paper_compressive_summarization/`: 세부 정보와 주장/근거 연결을 보존하는 과학기술 문헌 압축 요약.
+- `3-1_scientific_paper_summarization/`: 세부 정보와 주장/근거 연결을 보존하는 과학기술 문헌 압축 요약.
 - `3-3_feedback_then_refine/`: 인용 오류 교정을 위한 근거 기반 피드백 정제 (Feedback-then-Refine).
 

@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "paragraphs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "idx": {"type": "integer"},
+          "points": {
+            "type": "array",
+            "maxItems": 3,
+            "items": {
+              "type": "object",
+              "properties": {
+                "question": {"type": "string"},
+                "answer": {"type": "string"},
+                "evidence": {"type": "string"}
+              },
+              "required": ["question", "answer", "evidence"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["idx", "points"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["paragraphs"],
+  "additionalProperties": false
+}

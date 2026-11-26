@@ -1,0 +1,17 @@
+# 학습, 추론 (python 3.10, CUDA 12.6)
+torch==2.10.0
+transformers==5.8.0
+accelerate==1.12.0
+flash-linear-attention==0.5.0   # Qwen3.5 선형 어텐션 층
+numpy==2.2.5
+nltk==3.9.3
+# 데이터 파싱, 슬롯 배분
+datasets==4.6.1
+networkx==3.4.2
+rank-bm25==0.2.2
+# 학습 데이터 생성, 채점 클라이언트 (vLLM 서버 vllm==0.19.1은 별도 환경 권장)
+openai==2.29.0
+# 베이스라인
+llmlingua==0.2.2
+# 테스트
+pytest==9.0.2

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="174" viewBox="0 0 420 174" role="img" aria-labelledby="title desc">
+  <title id="title">Citation-Claim Faithfulness</title>
+  <desc id="desc">Evidence retrieval + LLM and NLI. 97.1% accuracy   |   0.957 Macro-F1. 1,000 citations · human consensus. Standalone README not included</desc>
+  <rect x="1" y="1" width="418" height="172" rx="12" fill="#f5f1ff" stroke="#69459d" stroke-opacity=".55" stroke-dasharray="5 4"/>
+  <rect x="14" y="14" width="5" height="53" rx="2.5" fill="#69459d"/>
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+    <text x="29" y="23" fill="#69459d" font-size="11" font-weight="700" letter-spacing=".55">3-2  /  VERIFICATION</text>
+    <text x="29" y="45" fill="#142439" font-size="20" font-weight="700">Citation-Claim</text>
+    <text x="29" y="68" fill="#142439" font-size="20" font-weight="700">Faithfulness</text>
+    <text x="29" y="87" fill="#3e4d60" font-size="12">Evidence retrieval + LLM and NLI</text>
+    <path d="M29 98 H391" stroke="#69459d" stroke-opacity=".22"/>
+    <text x="29" y="119" font-size="15" font-weight="700" fill="#69459d">97.1% accuracy   |   0.957 Macro-F1</text>
+    <text x="29" y="135" font-size="11" fill="#43536a">1,000 citations · human consensus</text>
+    <text x="29" y="158" font-size="11" font-weight="600" fill="#69459d">Standalone README not included</text>
+
+  </g>
+</svg>
